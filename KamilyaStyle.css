@@ -7,7 +7,7 @@ body {
     background-image: linear-gradient(rgba(204, 65, 65, 0.4), rgba(51, 146, 68, 0.3)), url('KamilyaImages/code.jpg');
     background-size: cover;
     background-position: center;
-    padding: 100px 0;
+    padding: 100px 100px;
     text-align: center;
   }
 
@@ -34,7 +34,7 @@ body {
   
   .MyContainer1 {
     background-color: white;
-    width: 2000px;
+    width: 1000px;
     margin: auto;
   }
 
@@ -95,8 +95,3 @@ body {
     }
   }
 
-  @media (min-width: 2000px) {
-    .MyContainer {
-      width: 1600px;
-    }
-  }
