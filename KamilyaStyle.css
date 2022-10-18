@@ -94,3 +94,9 @@ body {
       width: 800px;
     }
   }
+
+  @media (min-width: 2000px) {
+    .MyContainer {
+      width: 1600px;
+    }
+  }
