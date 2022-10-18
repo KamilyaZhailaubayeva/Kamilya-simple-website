@@ -1,0 +1,96 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .MyBanner {
+    background-image: linear-gradient(rgba(204, 65, 65, 0.4), rgba(51, 146, 68, 0.3)), url('KamilyaImages/code.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .MyBanner h1 {
+    color: white;
+    font-size: 50px;
+  }
+
+  .MyBanner p {
+    font-style: italic;
+    color: white;
+    font-size: 25px;
+  }
+
+  h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial;
+  }
+
+   p {
+    color: black;
+  }
+  
+  .MyContainer1 {
+    background-color: white;
+    width: 1500px;
+    margin: auto;
+  }
+
+  .Java-link {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .Java-link:hover {
+    text-decoration: underline;
+  }
+
+  .button-orange {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 16px;
+    transition: .15s;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .button-orange:hover {
+    background-color: rgb(255, 183, 0);
+    color: white;
+  }
+  
+  .MyFooter {
+    background: rgb(62, 144, 24);
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .MyFooter p {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* Container media queries */
+  @media (min-width: 500px) {
+    .MyContainer {
+      width: 400px;
+    }
+  }
+  
+  
+  @media (min-width: 800px) {
+    .MyContainer {
+      width: 600px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .MyContainer {
+      width: 800px;
+    }
+  }
